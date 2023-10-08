@@ -1,6 +1,6 @@
 {
 	"env_name": "GeometryTrack",
-	"env_bin": "/media/snorlax/新加卷/Projects/2023-Active_Tracking_with_Obstructions/gym-unrealcv-1.0-master/gym_unrealcv/envs/UnrealEnv/GeometryTrack2/GeometryTrack2/Binaries/Linux/GeometryTrack2",
+	"env_bin": "/media/snorlax/新加卷/Projects/aot-toolkit/envs/gym-unrealcv/gym_unrealcv/envs/UnrealEnv/GeometryTrack2/GeometryTrack2/Binaries/Linux/GeometryTrack2",
 	"imgs_dir": "/home/snorlax/Projects/textures",
 	"target_num": 10,
 	"cam_id": 1,

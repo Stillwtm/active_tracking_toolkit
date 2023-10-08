@@ -42,7 +42,6 @@ def test(env, tracker, camera, args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    # UnrealTrack-ForestTrack-DiscreteColor-v0
     parser.add_argument('--env', type=str, default='UnrealTrack-GeometryTrackRam-DiscreteColor-v0', help='environment name to use')
     parser.add_argument('--max_test_steps', type=int, default=500, help='max steps for test')
     parser.add_argument('--test_num', type=int, default=int(1), help='test how many times')
