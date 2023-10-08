@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 envs/gym_unrealcv/envs/UnrealEnv/
+
+models/
