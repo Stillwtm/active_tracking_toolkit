@@ -1,0 +1,70 @@
+{
+	"env_name": "GeometryTrack",
+	"env_bin": "/media/snorlax/新加卷/Projects/2023-Active_Tracking_with_Obstructions/gym-unrealcv-1.0-master/gym_unrealcv/envs/UnrealEnv/GeometryTrack2/GeometryTrack2/Binaries/Linux/GeometryTrack2",
+	"imgs_dir": "/home/snorlax/Projects/textures",
+	"target_num": 10,
+	"cam_id": 1,
+	"height": 220,
+	"pitch": 0,
+	"max_steps": 500,
+	"max_distance": 600,
+	"min_distance": 80,
+	"max_direction": 60,
+	"exp_distance": 250,
+	"texture_interval": 40,
+	"targets": [
+    	"Nathan_Blueprint"
+	],
+	"discrete_actions": [
+		[-20, 0],
+		[20, 0],
+		[0, 20],
+		[0, -20],
+		[-20, 20],
+		[20, 20],
+		[-20, -20],
+		[20, -20],
+		[0, 0]
+	],
+	"actions_list": [
+		[  180,  200]
+	],
+	"safe_start": [
+		[  0,  0,  200],
+		[ -800,  800,  300]
+	],
+	"reset_area" : [-900, 900, -900, 900, 300, 305],
+	"continous_actions": {
+		"high": [80,    20],
+		"low":  [-80,  -20]
+	},
+	"backgrounds": [
+		"Floor_1", "Wall1_1", "Wall2_1", "Wall3_1", "Wall4_1"
+	],
+	"lights": [
+		"PointLight_1", "PointLight_2", "PointLight_3", "PointLight_4"
+	],
+	"resetlist_num":0,
+	"reset_list": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"test_xy": [
+		[-106.195,   437.424],
+		[  27.897,  -162.437],
+		[  10.832,   135.126],
+		[  67.903,    26.995],
+		[ -23.558,  -187.354],
+		[ -80.312,   254.579]
+	],
+	"obstacles": [
+		"cube1", "cube2", "cube3", "cube4", "cube5", "cube6", "cube7", "cube8",
+		"sphere1", "sphere2", "sphere3", "sphere4", "sphere5", "sphere6", "sphere7", "sphere8",
+		"cylinder1", "cylinder2", "cylinder3", "cylinder4",
+		"cone1", "cone2", "cone3", "cone4"
+	]
+}

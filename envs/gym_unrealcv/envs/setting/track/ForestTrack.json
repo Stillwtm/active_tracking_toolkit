@@ -1,0 +1,43 @@
+{
+	"env_name": "ForestTrack",
+	"env_bin": "/media/snorlax/新加卷/Projects/2023-Active_Tracking_with_Obstructions/gym-unrealcv-1.0-master/gym_unrealcv/envs/UnrealEnv/ForestTrack/ForestTrack/Binaries/Linux/ForestTrack",
+	"imgs_dir": "/home/snorlax/Projects/textures",
+	"cam_id": 1,
+	"height": 220,
+	"pitch": 0,
+	"max_steps": 500,
+	"max_distance": 600,
+	"min_distance": 80,
+	"max_direction": 60,
+	"exp_distance": 250,
+	"texture_interval": 30,
+	"targets": [
+    	"Nathan"
+	],
+	"spawners": [
+		"Spawner"
+	],
+	"discrete_actions": [
+		[-20, 0],
+		[20, 0],
+		[0, 20],
+		[0, -20],
+		[-20, 20],
+		[20, 20],
+		[-20, -20],
+		[20, -20],
+		[0, 0]
+	],
+	"actions_list": [
+		[  180,  200]
+	],
+	"safe_start": [
+		[  0,  0,  200],
+		[ -800,  800,  300]
+	],
+	"reset_area" : [-900, 900, -900, 900, 300, 305],
+	"continous_actions": {
+		"high": [80,    20],
+		"low":  [-80,  -20]
+	}
+}
